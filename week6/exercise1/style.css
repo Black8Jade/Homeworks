@@ -1,0 +1,98 @@
+header, footer {
+    background-color: lightgrey ;
+}
+header {
+    height: 100px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+body {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0,5fr 1fr;
+}
+main {
+    background-color: bisque;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+main section {
+    background-color: beige;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1,5;
+    grid-row-end: 3;
+}
+.part {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.more {
+    background-color: burlywood;
+    height: 30px;
+    margin: 20px;
+}
+.more3 {
+    background-color: burlywood;
+    height: 30px;
+    margin: 20px;
+}
+aside {
+    background-color: rgba(142, 231, 142, 0.877);
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1,5;
+    grid-row-end: 3;
+}
+footer {
+    height: 100px;
+    display: grid;
+    grid-template-rows: repeat (4, 1fr);
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.foot1 {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin: 30px;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-start: 2;
+}
+.foot2 {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin: 30px;
+    display: grid;
+    grid-column-start: 2;
+    grid-column-start: 3;
+}
+.foot3 {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin: 30px;
+    display: grid;
+    grid-column-start: 3;
+    grid-column-start: 4;
+}
+.foot4 {
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    margin: 30px;
+    display: grid;
+    grid-column-start: 4;
+    grid-column-start: 5;
+}

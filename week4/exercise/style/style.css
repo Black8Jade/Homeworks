@@ -1,0 +1,247 @@
+.container {
+  position: relative;
+  width: 25%;
+}
+#image0 {
+  width: 1450px;
+  height: 650px;
+}
+#shopthealwayspan {
+  width: 248px;
+  height: 60px;
+  border: none;
+  font-family: roboto-regular, open-sans, sans-serif;
+  text-align: center;
+  background-color: #D37657;
+}
+header h2 {
+  text-align: center;
+  font-family: roboto-regular, open-sans, sans-serif;
+}
+header div {
+  text-align: center;
+}
+#logo1 {
+  width: 120px;
+  height: 25px;
+}
+#logo2 {
+  width: 120px;
+  height: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+#logo3 {
+  width: 120px;
+  height: 25px;
+  padding-right: 200px;
+}
+#logo4 {
+  width: 120px;
+  height: 25px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&display=swap');
+.section {
+  background-color: #F5F1E9;
+  font-family: roboto-regular, open-sans, sans-serif;
+  width: 1440px;
+  height: 220px;
+}
+#section1 {
+  background-color:white;
+}
+#title {
+  font-family: roboto-regular, open-sans, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-align: left;
+}
+.button1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button1 :link {
+  color:#E09D81;
+}
+.button1 :active {
+  color:#C33636;
+}
+.button1 :visited {
+  color:#807C62;
+}
+.button2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button2 :link {
+  color:#748EA1;
+}
+.button2 :active {
+  color:#C33636;
+}
+.button2 :visited {
+  color:#807C62;
+}
+.button3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button3 :link {
+  color:#B76D47;
+}
+.button3 :active {
+  color:#C33636;
+}
+.button3 :visited {
+  color:#807C62;
+}
+.button4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button4 :link {
+  color:#7D836E;
+}
+.button4 :active {
+  color:#C33636;
+}
+.button4 :visited {
+  color:#807C62;
+}
+.button5 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button5 :link {
+  color:#C33636;
+}
+.button5 :active {
+  color:#C33636;
+}
+.button5 :visited {
+  color:#807C62;
+}
+.button6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button6 :link {
+  color:#CDC7B3;
+}
+.button6 :active {
+  color:#C33636;
+}
+.button6 :visited {
+  color:#807C62;
+}
+.button7 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button7 :link {
+  color:#E09D81;
+}
+.button7 :active {
+  color:#C33636;
+}
+.button7 :visited {
+  color:#807C62;
+}
+.button8 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.button8 :link {
+  color:#D3C2CA;
+}
+.button8 :active {
+  color:#C33636;
+}
+.button8 :visited {
+  color:#807C62;
+}
+nav section {
+  text-align: center;
+}
+nav h1 {
+  font-family: roboto-regular, open-sans, sans-serif;
+}
+nav p {
+  font-family: roboto-regular, open-sans, sans-serif;
+}
+#image1 {
+  width: 300px;
+  height: 290px;
+  border-radius: 60%;
+}
+#image2 {
+  width: 300px;
+  height: 290px;
+  border-radius: 60%;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#image3 {
+  width: 300px;
+  height: 290px;
+  border-radius: 60%;
+  padding-right: 35px;
+}
+#image4 {
+  width: 300px;
+  height: 290px;
+  border-radius: 60%;
+}
+body {
+  background-color: #F5F1E9;
+}
+body p {
+  text-align: center;
+}
+body h3 {
+  font-family: roboto-regular, open-sans, sans-serif;
+  text-align: center;
+}
+body button {
+  width: 248px;
+  height: 60px;
+  border: none;
+  font-family: roboto-regular, open-sans, sans-serif;
+  text-align: center;
+}
+body img {
+  width: 400px;
+  height: 400px;
+}
+footer {
+  background-color: #807C62;
+  width: 1440px;
+  height: 449px;
+}
+#keepintouch {
+  font-family: roboto-regular, open-sans, sans-serif;
+  padding-left: 40px;
+  padding-top: 90px;
+  text-align: left;
+}
+#bethefirst {
+  font-family: roboto-regular, open-sans, sans-serif;
+  padding-left: 40px;
+  text-align: left;
+}
+footer form {
+  padding-left: 40px;
+  padding-top: 40px;
+}
+form input {
+  width: 400px;
+  height: 50px;
+}

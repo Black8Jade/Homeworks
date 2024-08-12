@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Опросник для владельцев животных </title>
+</head>
+<body>
+    <h1> Опросник для владельцев животных </h1>
+    <form method="post">
+        <div>
+            <label for="pet-name"> Кличка питомца: </label>
+            <input type="text" id="pet-name"/>
+        </div>
+        <div>
+            <br> <label for="species"> Вид питомца: </label>
+            <select>
+                <option value="1"> Единорог </option>
+                <option value="2"> Мудрая Сова </option>
+                <option value="3"> Дракон </option>
+                <option value="4"> Неизвестное науке животное </option> </br>
+            </select>
+        </div>
+        <div>
+            <br> <label for="sex"> Пол питомца: </label>
+            <input type="radio" id="female" name="sex" value="female" required/>
+            <label for="female"> Женский </label>
+            <input type="radio" id="male" name="sex" value="male" required/>
+            <label for="male"> Мужской </label>
+            <input type="radio" id="unknown" name="sex" value="unknown" required/>
+            <label for="unknown"> Неизвестный </label>
+        </div>
+        <div>
+            <br> <label for="diet"> Режим питания питомца: </label> </br>
+            <br> <input type="checkbox" name="diet" value="1"/>
+            Сухой корм <br/>
+            <br> <input type="checkbox" name="diet" value="2"/>
+            Влажный корм <br/>
+            <br> <input type="checkbox" name="diet" value="3"/>
+            Натуральный корм </br>
+        </div>
+        <div>
+            <br> <label for="fio"> ФИО владельца: </label>
+            <input type="text" name="fio" id="fio"/> </br>
+        </div>
+        <div>
+            <br> <label for="phone"> Номер телефона владельца: </label>
+            <input placeholder="8-000-000-00-00" name="phone" id="phone" pattern="[0-9]{3}-?[0-9]{3}-?[0-9]{4}" required/> </br>
+        </div>
+        <div>
+            <br> <label for="comment"> Комментарий владельца: </label> </br>
+            <br> <textarea></textarea> </br>
+        </div>
+        <div>
+            <br> <input type="file"> </br>
+        </div>
+        <div>
+        <br> <button> Сохранить </button> </br>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    margin-left: 28%;
+    background-color: rgb(6, 6, 6);
+    color: white;
+    border: none;
+}

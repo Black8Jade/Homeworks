@@ -1,0 +1,145 @@
+.header__image-section {
+    position: relative;
+    height: 600px;
+}
+
+.header__menu {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+    font-size: large;
+}
+
+.menu-address, .menu-phone {
+    color: #ffffff;
+}
+
+.menu-link {
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header__button__1, .header__button__2 {
+    position: absolute;
+    width: 13%;
+    height: 40%;
+    top: 640%;
+    left: 40%;
+    background-color: #99862A;
+    color: white;
+    text-align: center;
+    transform: translateX(-50%);
+    border: none;
+}
+
+.header__button__1 {
+    margin-right: 16%;
+}
+
+.header__button__2 {
+    margin-left: 16%;
+}
+
+.main__section__1 {
+    padding: 50px;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+
+.section-content {
+    max-width: 800px;
+    padding: 50px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.section-content h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.main__section__1-divider {
+    width: 50px;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #fff;
+}
+
+.section-content p {
+    margin: 20px 0;
+    color: #d1d1d1;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.section-content img {
+    margin-top: 20px;
+    max-width: 100px;
+    height: auto;
+}
+
+.main__section__2 {
+    padding: 3%;
+    background-color: #E6E3C4;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    font-size: large;
+}
+
+.main__section__2 img {
+    margin-bottom: 15%;
+}
+
+.button {
+    width: 27%;
+    height: 6%;
+    background-color: #99862A;
+    color: white;
+    border: none;
+}
+
+.main__section__3 {
+    padding: 4%;
+    background-color: #1c1c1c;
+}
+
+.main__section__3 h3 {
+    color: white;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+button[type="submit"] {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    height: 30%;
+    padding: 1%;
+    background-color: #99862A;
+}
+
+footer img {
+    width: 2%;
+    height: 2%;
+}

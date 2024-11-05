@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    width: 240px;
+    height: 25px;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(156, 197, 86);
+    border: none;
+    border-radius: 10%;
+}
+
+ul {
+    list-style-type: none;
+}

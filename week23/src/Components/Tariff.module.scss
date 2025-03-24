@@ -1,0 +1,77 @@
+.card {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .headerTop {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .headerBottom {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 25px;
+    padding: 12px;
+  }
+
+  .currency {
+    font-size: 12px;
+  }
+
+  .period {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 30px;
+    margin: 8px;
+  }
+
+  .infoBlock {
+    background-color: #f2f2f2;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .speed {
+    color: #000;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+
+  .info {
+    color: #000;
+    background-color: #e6e6e6;
+    padding: 10px;
+  }
+
+  .teal {
+    background-color: #00bcd4;
+  }
+
+  .green {
+    background-color: #009688;
+  }
+
+  .red {
+    background-color: #f44336;
+    transform: scale(1.08);
+  }
+
+  .dark {
+    background-color: #312e2e;
+  }
+
+
+
+

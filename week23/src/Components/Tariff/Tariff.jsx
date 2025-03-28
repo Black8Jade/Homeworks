@@ -1,11 +1,15 @@
 import React from "react";
 import styles from "./Tariff.module.scss";
 
-function Tariff({ name, price, speed, color }) {
+function Tariff({ name, price, speed, color, isSelected, onSelect }) {
   const cardColorClass = styles[color] || styles.default;
+  const selectedClass = isSelected ? styles.selected : "";
 
   return (
-    <div className={`${styles.card} ${cardColorClass}`}>
+    <div
+      className={`${styles.card} ${cardColorClass} ${selectedClass}`}
+      onClick={onSelect}
+    >
       <div className={styles.headerTop}>
         <div className={styles.tariffName}>{name}</div>
       </div>

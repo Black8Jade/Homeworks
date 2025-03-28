@@ -65,11 +65,15 @@
 
   .red {
     background-color: #f44336;
-    transform: scale(1.08);
   }
 
   .dark {
     background-color: #312e2e;
+  }
+
+  .selected {
+    transform: scale(1.08);
+    transition: transform 0.2s, border 0.2s;
   }
 
 

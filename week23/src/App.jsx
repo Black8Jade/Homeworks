@@ -1,5 +1,5 @@
-import React from "react";
-import Tariff from "./Components/Tariff.jsx";
+import React, { useState } from "react";
+import Tariff from "./Components/Tariff/Tariff.jsx";
 import "./index.scss";
 
 const jsonData = [
@@ -10,16 +10,20 @@ const jsonData = [
 ];
 
 function App() {
+  const [selectedTariff, setSelectedTariff] = useState(null);
+
   return (
     <div className="app">
-      <div className="tariff_container">
-        {jsonData.map((item) => (
+      <div className="tariffContainer">
+        {jsonData.map((item, index ) => (
           <Tariff
             key={item.price}
             name={item.name}
             price={item.price}
             speed={item.speed}
             color={item.color}
+            isSelected={selectedTariff === index}
+            onSelect={() => setSelectedTariff(index)}
           />
         ))}
       </div>

@@ -1,4 +1,3 @@
-// /store/WordsStore.js
 import { makeAutoObservable, runInAction } from 'mobx';
 
 class WordsStore {

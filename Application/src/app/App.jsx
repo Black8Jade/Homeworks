@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MainPage from '../pages/MainPage/MainPage';
 import GamePage from '../pages/GamePage/GamePage';
-import Menu from '../components/Menu/Menu';
+import Menu from "../components/Header/Menu/Menu";
 import Footer from '../components/Footer/Footer';
 import './App.scss';
 

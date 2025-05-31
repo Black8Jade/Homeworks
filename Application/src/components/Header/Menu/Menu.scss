@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu__link {
+    color: #00796b;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover,
+    &:focus {
+        color: #004d40;
+    }
+}
+
+.menu__link--active {
+    font-weight: bold;
+    border-bottom: 2px solid #004d40;
+}

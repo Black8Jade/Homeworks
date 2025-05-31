@@ -1,0 +1,42 @@
+.word-card {
+    max-width: 300px;
+    background-color: #e0f7fa;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    padding: 20px;
+    margin: 0 auto;
+
+    &:hover {
+        transform: translateY(-4px);
+    }
+
+    .word {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .transcription,
+    .translation,
+    .theme {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    button {
+        background-color: #a5d6a7;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+        padding: 8px 16px;
+        margin-top: 10px;
+
+    &:hover,
+    &:focus {
+        background-color: #81c784;
+    }
+  }
+}

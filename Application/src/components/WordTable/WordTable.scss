@@ -1,0 +1,23 @@
+.word-table {
+    padding: 20px;
+
+    &__table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: 'Arial', sans-serif;
+    }
+
+    th, td {
+        border: 1px solid #b2dfdb;
+        text-align: left;
+        padding: 10px;
+    }
+
+    th {
+        background-color: #b2dfdb;
+    }
+
+    tr:hover {
+    background-color: #e0f7fa;
+    }
+}

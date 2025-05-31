@@ -1,0 +1,38 @@
+.cards-trainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    button {
+      background-color: #aed581;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 20px;
+      transition: background-color 0.2s ease;
+      padding: 10px 16px;
+
+      &:hover,
+      &:focus {
+        background-color: #9ccc65;
+      }
+    }
+  }
+
+  &__info {
+    color: #388e3c;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  &__empty {
+    color: #f44336;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+}
